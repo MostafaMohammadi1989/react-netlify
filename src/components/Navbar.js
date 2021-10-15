@@ -1,11 +1,12 @@
 import "./Navbar.css";
-
+import img from "./img/logo.png";
 function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-leftSide">
-        <input type="text" placeholder="Searching..." />
-        <button>Search</button>
+        <div className="logo">
+          <img src={img} alt="" />
+        </div>
       </div>
       <div className="nav-rightSide">
         <div className="nav-items">
