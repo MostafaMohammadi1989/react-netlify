@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./Home.css";
 import img from "./img/myimg.jpg";
 
 function Header() {
