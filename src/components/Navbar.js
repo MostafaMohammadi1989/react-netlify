@@ -7,13 +7,13 @@ const Navbar = () => {
     <div className="navbar">
       <ul className="nav-items">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/image">IMAGES</Link>
         </li>
         <li>
-          <Link to="/image">Image</Link>
+          <Link to="/about">ABOUT</Link>
         </li>
       </ul>
     </div>
