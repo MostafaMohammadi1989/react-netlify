@@ -1,0 +1,79 @@
+.about-container .about-documention {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.doc-title {
+  font-size: 30px;
+  color: rgb(41, 41, 41);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.doc-paragraph {
+  width: 700px;
+  align-items: center;
+  text-align: justify;
+  line-height: 25px;
+  border: 4px solid rgba(155, 155, 155, 0.4);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.my-expertion {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.exp-title {
+  font-size: 26px;
+  color: rgb(41, 41, 41);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.doc-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+.exp-slids {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.slid-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  border: 4px solid rgba(155, 155, 155, 0.4);
+  margin-right: 20px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slid-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  border: 4px solid rgba(155, 155, 155, 0.4);
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
